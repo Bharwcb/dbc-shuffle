@@ -1,0 +1,55 @@
+<div class="container">
+<div class="cohort-show">
+
+<div class="title">
+  <h1>
+
+    Welcome to the <%= @cohort.location.name %> <%=@cohort.name %> Cohort!
+  </h1>
+  <% if teacher_signed_in? %>
+    <p>Hello Teacher! Here is Your Cohort:</p>
+  <% else %>
+  <p>Hello Student! Here is your Cohort for Today:</p>
+  <%end  %>
+</div>
+
+
+  <div class="item">
+    <%= render partial: "cohorts/cohort" %>
+  </div>
+  <div class="item">
+    <%= form_for :cohort, url: generate_cohort_groups_path(@cohort), method: "get" do |f| %>
+    <!-- form_for @size (controller: "cohort", action: "update") do |f| -->
+     <div class="group_size">
+        <%= f.label :size %><br />
+        <select name="size">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4" selected>4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+          </select>
+          <div class="button">
+        <%= f.submit "Generate Groups" %>
+        <div class="button">
+      </div>
+    </div>
+    <div class="item">
+      <% end %>
+
+      <%= button_to 'save', edit_cohort_path(@cohort) %>
+
+      <%= button_to 'retire cohort', edit_cohort_path(@cohort) %>
+    </div>
+</div>
+</div>
