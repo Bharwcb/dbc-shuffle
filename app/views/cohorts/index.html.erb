@@ -1,0 +1,18 @@
+<div id="welcome" class="container">
+  <h1>Welcome.</h1>
+  <div class="left">
+
+    <h3>Recent Groups Generated:</h3>
+    <ul class="list-group">
+      <% @cohorts.each do |cohort| %>
+        <li class="list-group-item"><%= link_to "#{cohort.name} - #{cohort.location.try(:name)}", cohort_path(cohort) %></li>
+      <% end %>
+    </ul>
+  </div>
+
+  <div class="right">
+    <h4>Teacher Login</h4>
+    <%= render partial: '/devise/sessions/new' %>
+  </div>
+
+</div>

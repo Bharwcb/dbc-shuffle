@@ -41,3 +41,80 @@ $brand-language: #B01302;
 
 }
 
+
+.admin-home {
+  h4 {
+    margin: 5px 0;
+    padding: 5px ;
+    background-color: #efefef;
+  }
+  .admin-list, .admin-new {
+    //width: 45%;
+    //height: 100%;
+    //float: left;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+  .admin-new {
+    //border-left: 2px solid #ccc;
+    //padding-left: 40px;
+
+  }
+
+}
+
+.nav{
+ background-color: black;
+}
+
+.nav-list{
+      list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.link {
+    float: left;
+}
+
+.navbar-link{
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.cohort-show{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.cohort-show > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+.title{
+    margin-top: 1em;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item {
+    margin-top: 1em;
+    text-align: center;
+    padding: .5em;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+.button{
+
+}

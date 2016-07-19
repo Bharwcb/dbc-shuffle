@@ -5,7 +5,7 @@ DBC Shuffle is a 3-day project intended to simulate a real-world scenario of bac
 
 Using DBC Shuffle, weekly groups and pair-programming partners are generated for all cohorts of Dev Bootcamp each week.  Our team designed a RESTful Rails app for an MVP implementing an algorithm to minimize repitition of students pair-programming with the same groups and partners.  
 
-We promised a backend for teachers to login and manage group sizes and preferences for their cohorts each week, while giving all students public access to view their assigned groups.
+We promised a backend for teachers to login and manage group sizes and preferences for their cohorts each week, while giving all students public access to view their assigned groups. With the MVP we did not have time to implement much of a front-end, so this will be a personal project post-graduation..
 
 ## Personal Updates Since Project Closed
 
