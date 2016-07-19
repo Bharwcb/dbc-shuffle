@@ -1,3 +1,5 @@
+# never implemented admin to send out email invites 
+
 class Admin::TeachersController < ApplicationController
 # before_action :configure_sign_up_params, only: [:create]
   def index

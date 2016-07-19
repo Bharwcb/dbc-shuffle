@@ -17,7 +17,11 @@ I made X improvements...
 
 The largest challenge we faced was often having to rewrite features or adjust our models often while managing client expectations, to reach a middle ground we could deliver on time. 
 
-Personally, I handled the concepting and designing of the MVC as well as custom Devise gem set up (teacher login/authentication), views for teachers and students, and overall running client meetings to update progress from the team. 
+During the scope of the project, I managed:
+- Concepting and designing of the MVC
+- Custom Devise gem set up (teacher login/authentication)
+- All models, controllers & views for teacher admin and students, including RESTful routes for adding new cohorts and permissions
+- Running client meetings to liason back to team
 
 ## Running Locally
 
