@@ -9,9 +9,9 @@ We promised a backend for teachers to login and manage group sizes and preferenc
 
 ## Personal Updates Since Project Closed
 
-I ...
--
--
+I made X improvements...
+- mobile responsive
+- interactice interface to move students in different groups
 
 ## Challenges & Takeaways:
 
@@ -29,10 +29,9 @@ $ bundle exec rake db:create db:migrate
 $ bundle exec rails s
 ```
 
-Team Members:
-
-Brad Harris
-Michael Laurel
-Noah Naamad
-Maeve Tierney
+## Team Members:
+- Brad Harris
+- Michael Laurel
+- Noah Naamad
+- Maeve Tierney
 
