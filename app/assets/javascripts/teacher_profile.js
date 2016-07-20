@@ -5,9 +5,3 @@ $(document).ready(function(){
     $("#add_cohort_form").css("display", "block");
   })
 });
-
-
-// $(document).ready(function() {
-//   c
-//
-// })
