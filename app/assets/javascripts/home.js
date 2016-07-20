@@ -1,5 +1,5 @@
-// greeting on homepage
 $(document).ready(function() {
+	// greeting on homepage
 	var timeNow = new Date();
 
 	if ( timeNow.getHours() < 12 ) {
@@ -12,5 +12,8 @@ $(document).ready(function() {
 		$(".greeting").html("Good evening, DBC!");
 	}
 
+	// hide login on right if already logged in
+
+	// $("#welcome .right").css("display", "none");
 	
 })
