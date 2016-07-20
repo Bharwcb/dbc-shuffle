@@ -23,8 +23,9 @@ $(document).ready(function() {
 			var logged_in = response.logged_in;
 			if ( logged_in === true ) {
 				$("#welcome .right").css("display", "none");
+				$("#welcome .left").animate ( {left: "37%"}, 500, function() {} );
 			}
-		})
+		});
 		
 	
 })
