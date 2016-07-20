@@ -12,8 +12,27 @@ $(document).ready(function() {
 		$(".greeting").html("Good evening, DBC!");
 	}
 
-	// hide login on right if already logged in
+	// Hide login on right if already logged in:
 
-	// $("#welcome .right").css("display", "none");
+		// send ajax request to custom cohorts#user_logged_in method, return true or false and set equal to variable logged_in
+		$.ajax({
+			url: '/cohorts/user_logged_in'
+		})
+
+		.done(function(response) {
+			var logged_in = response.logged_in;
+			if ( logged_in === true ) {
+				$("#welcome .right").css("display", "none");
+			}
+		})
+		
 	
 })
+
+
+
+
+
+
+
+

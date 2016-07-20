@@ -12,6 +12,9 @@ Rails.application.routes.draw do
 
   resources :students, only: [:index, :new, :create]
 
+  # custom route for hiding login on homepage (cohorts.index.html)
+  get 'cohorts/user_logged_in'
+
   resources :cohorts do
     resources :groups do
       collection do
@@ -19,6 +22,8 @@ Rails.application.routes.draw do
       end
     end
   end
+
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
