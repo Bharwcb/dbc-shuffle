@@ -1,8 +1,4 @@
 class CohortsController < ApplicationController
-  # custom method to use user_signed_in? devise helper in javascript.. to hide login partial if already logged in on homepage (cohorts#index.html) 
-  def user_logged_in
-    render json: {logged_in: teacher_signed_in?}
-  end
 
   def index
     @cohorts = Cohort.all
