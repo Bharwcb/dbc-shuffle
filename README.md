@@ -9,9 +9,7 @@ We promised a backend for teachers to login and manage group sizes and preferenc
 
 ## Personal Updates Since Project Closed
 
-I made X improvements...
-- mobile responsive
-- interactice interface to move students in different groups
+I made improvements on the public vs. teacher interface, including hiding logins from signed in teachers, 
 
 ## Challenges & Takeaways:
 
@@ -22,6 +20,10 @@ During the scope of the project, I managed:
 - Custom Devise gem set up (teacher login/authentication)
 - All models, controllers & views for teacher admin and students, including RESTful routes for adding new cohorts and permissions
 - Running client meetings to liason back to team
+
+## Next Steps:
+
+Beyond the scope of this 3 day project, on a teacher's profile page the "save" button would next persist groupings to the database.  Second, adding students to a cohort after it is initially created.
 
 ## Running Locally
 
