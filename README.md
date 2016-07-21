@@ -33,8 +33,9 @@ Beyond the scope of this 3 day project, on a teacher's profile page the "save" b
 $ git clone https://github.com/Bharwcb/dbc-shuffle.git
 $ cd dbc-shuffle
 $ bundle install
-$ bundle exec rake db:create db:migrate
+$ bundle exec rake db:create db:migrate db:seed
 $ bundle exec rails s
+Sign up as a teacher, click on a cohort, choose group size, and click "Generate"
 ```
 
 ## Team Members:
