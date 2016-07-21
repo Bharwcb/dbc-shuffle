@@ -9,7 +9,9 @@ We promised a backend for teachers to login and manage group sizes and preferenc
 
 ## Personal Updates Since Project Closed
 
-I made improvements on the public vs. teacher interface, including hiding logins from signed in teachers, 
+I made improvements on the public vs. teacher interface, including: 
+- Hide teacher admin features (generate groups, etc.) from public/students
+- Hide login from signed in teachers
 
 ## Challenges & Takeaways:
 
