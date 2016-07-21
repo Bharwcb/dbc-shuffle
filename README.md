@@ -25,7 +25,7 @@ During the scope of the project, I managed:
 
 ## Next Steps:
 
-Beyond the scope of this 3 day project, on a teacher's profile page the "save" button would next persist groupings to the database.  Second, adding students to a cohort after it is initially created.
+Beyond the scope of this 3 day project, on a teacher's profile page the "save" button would next persist groupings to the database.  Second, adding students to a cohort after it is initially created.  Lastly, DESIGN. The app is clearly very barebones.
 
 ## Running Locally
 
