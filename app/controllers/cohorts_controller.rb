@@ -1,4 +1,5 @@
 class CohortsController < ApplicationController
+
   def index
     @cohorts = Cohort.all
   end
@@ -46,6 +47,7 @@ class CohortsController < ApplicationController
 
   def destroy
   end
+
 
   private
     def cohort_params

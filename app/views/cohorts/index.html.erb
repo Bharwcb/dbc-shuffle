@@ -1,7 +1,8 @@
 <div id="welcome" class="container">
-  <h1>Welcome.</h1>
-  <div class="left">
 
+  <h1 class="greeting">Welcome.</h1>
+
+  <div class="left">
     <h3>Recent Groups Generated:</h3>
     <ul class="list-group">
       <% @cohorts.each do |cohort| %>
@@ -10,9 +11,11 @@
     </ul>
   </div>
 
-  <div class="right">
-    <h4>Teacher Login</h4>
-    <%= render partial: '/devise/sessions/new' %>
-  </div>
+  <% if !teacher_signed_in? %>
+    <div class="right">
+      <h4>Teacher Login</h4>
+      <%= render partial: '/devise/sessions/new' %>
+    </div>
+  <% end %>
 
 </div>
