@@ -11,9 +11,11 @@
     </ul>
   </div>
 
-  <div class="right">
-    <h4>Teacher Login</h4>
-    <%= render partial: '/devise/sessions/new' %>
-  </div>
+  <% if !teacher_signed_in? %>
+    <div class="right">
+      <h4>Teacher Login</h4>
+      <%= render partial: '/devise/sessions/new' %>
+    </div>
+  <% end %>
 
 </div>
