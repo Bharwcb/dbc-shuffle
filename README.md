@@ -9,7 +9,9 @@ We promised a backend for teachers to login and manage group sizes and preferenc
 
 ## Personal Updates Since Project Closed
 
-I made improvements on the public vs. teacher interface, including hiding logins from signed in teachers, 
+I made improvements on the public vs. teacher interface, including: 
+- Hide teacher admin features (generate groups, etc.) from public/students
+- Hide login from signed in teachers
 
 ## Challenges & Takeaways:
 
@@ -31,8 +33,9 @@ Beyond the scope of this 3 day project, on a teacher's profile page the "save" b
 $ git clone https://github.com/Bharwcb/dbc-shuffle.git
 $ cd dbc-shuffle
 $ bundle install
-$ bundle exec rake db:create db:migrate
+$ bundle exec rake db:create db:migrate db:seed
 $ bundle exec rails s
+Sign up as a teacher, click on a cohort, choose group size, and click "Generate"
 ```
 
 ## Team Members:
